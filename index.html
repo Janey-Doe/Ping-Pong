@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Ping Pong </title>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Open+Sans" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  </head>
-  <body>
+<html lang="en" dir="ltr">
 
-    <div class="jumbotron">
-    <h1><strong>Ping Pong</strong></h1>
-    <h1>Let's play</h1>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Open+Sans" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <title>Ping-pong</title>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <h1>Ping-Pong!</h1>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h3>Hurray Let's Play!</h3>
+      <h3>Rules:</h3>
+      <p>Ping Pong will count up to your nymber from 1 with the following exceptions:</p>
+      <ol>
+        <li>Numbers divisible by 3 become"ping"</li>
+        <li>Numbers divisible by 5 become"pong"</li>
+        <li>Numbers divisible by 3 and 5 become "pingpong"
+        </li>
+      </ol>
+      <form class="pingp" action="index.html" method="post">
+        <div class="form-group">
+          <label for="num">Enter Your Number Here:</label>
+          <input type="number" name="" value="" id="in">
+          <button id="bt" type="submit" name="button">PingPong!</button>
+          <ul class="list">
+          </ul>
+        </div>
     </div>
+    </br>
+    </form>
+</body>
 
-  </body>
 </html>
