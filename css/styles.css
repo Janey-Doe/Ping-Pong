@@ -1,1 +1,18 @@
+.footer{
+  background-color: #e66565;
+  text-align: center;
+  color:white;
+}
 
+body{
+  background-color: #2b2141;
+  color:white;
+}
+
+#in{
+  color: black;
+}
+
+.btn{
+  color:black;
+}

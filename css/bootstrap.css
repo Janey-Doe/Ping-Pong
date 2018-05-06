@@ -4964,7 +4964,7 @@ a.badge:focus {
   color: inherit;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 300px;
 }
 .jumbotron p {
   margin-bottom: 15px;
