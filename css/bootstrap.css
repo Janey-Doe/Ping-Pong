@@ -4960,11 +4960,11 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
-}
-.jumbotron h1,
-.jumbotron .h1 {
+  background-image: url("file:///home/mercy/Documents/moringa-school-projects/ping-pong/images/source.gif");
   color: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -4995,7 +4995,9 @@ a.badge:focus {
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 200px;
+    text-align: center;
+    color:white;
   }
 }
 .thumbnail {
